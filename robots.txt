@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /downloads/BookMyDriver.apk
+Allow: /downloads/BookMeAsDriver.apk
+Disallow: /downloads/
