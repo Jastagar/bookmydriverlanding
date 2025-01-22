@@ -14,11 +14,11 @@ export default function Hero() {
         a.click()
     }
   return (
-    <section className="flex flex-col items-center justify-center h-screen text-center space-y-6 bg-gray-50 p-4">
-        <h1 className="text-5xl font-extrabold tracking-tight text-gray-900">
-            Welcome to <span className="text-primary-600">BookMyDriver</span>
+    <section className="flex flex-col items-center justify-center h-screen text-center space-y-6 p-4">
+        <h1 className="text-5xl font-extrabold tracking-tight text-white">
+            Welcome to <span className="text-primary-200">BookMyDriver</span>
         </h1>
-        <p className="text-lg max-w-lg text-gray-700">
+        <p className="text-lg max-w-lg text-gray-100">
             The easiest way to book a driver for all your transportational needs. 
             Whether you are a client or a driver, we’ve got you covered.
         </p>
@@ -38,12 +38,6 @@ export default function Hero() {
             >
             Be A Driver
             </button>
-        </div>
-
-        <div className="mt-4 text-sm text-gray-500">
-            <p>
-            Need help? <a href="/support" className="text-primary-600 underline">Visit our support page</a>
-            </p>
         </div>
     </section>
   )
