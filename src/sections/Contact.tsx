@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Contact() {
   return (
     <section className="bg-primary-800 py-20 w-full text-center flex flex-col text-white h-screen">
