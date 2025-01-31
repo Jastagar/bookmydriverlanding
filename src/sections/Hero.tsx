@@ -22,6 +22,10 @@ export default function Hero() {
             The easiest way to book a driver for all your transportational needs. 
             Whether you are a client or a driver, we’ve got you covered.
         </p>
+        <div className="text-red-900">
+            <span className="text-lg font-semibold max-w-lg">NOTE:</span>
+            This is not an official release and the apps are still in MVP/POC stages,<br/> so there maybe unexpected bugs and errors.
+        </div>
 
         <div className="flex space-x-4 mt-6 gap-6">
             <div className="flex flex-col gap-4" >
