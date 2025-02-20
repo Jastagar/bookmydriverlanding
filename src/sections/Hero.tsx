@@ -1,13 +1,13 @@
 export default function Hero() {
     function downloadClient(){
-        const url = "https://drive.google.com/file/d/1b0ffiFYdL2y7T-JOzp7DmQIo3SgeCx86/view?usp=drive_link"
+        const url = "https://dvsgoqec9qdbgbgg.public.blob.vercel-storage.com/bookMyDriver.apk"
         const a = document.createElement("a")
         a.href = url
         a.download = "BookMyDriver.apk"
         a.click()
     }
     function downloadDriver(){
-        const url = "https://drive.google.com/file/d/1CF-4QAk7Gnc-QH1WWsJElGKSDGw4eWGd/view?usp=drive_link"
+        const url = "https://dvsgoqec9qdbgbgg.public.blob.vercel-storage.com/bookMeAsDriver.apk"
         const a = document.createElement("a")
         a.href = url
         a.download = "BookMeAsDriver.apk"
